@@ -3,22 +3,38 @@ body{
   font-family: Helvetica;
   text-align: center;
 }
-/*Header*/
-header{
-  background: #FFF url("../images/the-flatiron-building.png") no-repeat center center;
-}
-/*Headings*/
 h1{
   font-size: 70px;
   font-weight: bold;
   color: #FFF;
 }
+h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+p{
+  font-size: 14px;
+}
+/*Header*/
+header{
+  background: #FFF url("../images/the-flatiron-building.png") no-repeat center center;
+}
 nav ul li{
-  font-family: Helvetica;
   list-style-type: none;
   font-size: 18px;
   padding: 8px;
 }
 nav a{
+  color: #FFF;
+}
+/*Tagline*/
+h2:nth-of-type(2){
+  background: #FFF url("../images/the-flatiron-building.png") no-repeat center center;
+  font-size: 23px;
+  font-weight: bold;
   color: #FFF;
 }
