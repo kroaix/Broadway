@@ -23,12 +23,10 @@ p{
 header{
   background: #FFF url("../images/the-flatiron-building.png") no-repeat center center;
 }
-nav ul li{
+nav ul li, nav a{
   list-style-type: none;
   font-size: 18px;
   padding: 8px;
-}
-nav a{
   color: #FFF;
 }
 /*Tagline*/
@@ -37,4 +35,13 @@ h2:nth-of-type(2){
   font-size: 23px;
   font-weight: bold;
   color: #FFF;
+}
+/*Footer*/
+footer{
+  text-align: left;
+  font-size: 11px;
+}
+footer, footer a{
+  color: #FFF;
+  background: dimgray;
 }
